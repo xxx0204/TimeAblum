@@ -6,6 +6,7 @@ target 'TimeAblum' do
   # use_frameworks!
   inhibit_all_warnings!
 
+  pod 'SDWebImage', '~> 4.2.2'
 
   # Pods for TimeAblum
   #HHZ组件
@@ -18,6 +19,8 @@ target 'TimeAblum' do
   pod ‘HHZNoneDataView’, :git => 'https://github.com/chenzhe555/HHZNoneDataView.git'
   pod ‘HHZLoading’, :git => 'https://github.com/chenzhe555/HHZLoading.git'
   pod 'HHZNetwork', :git => 'https://github.com/chenzhe555/HHZNetwork.git'
+  pod ‘HHZPopupView’, :git => 'https://github.com/chenzhe555/HHZPopupView.git'
+
 
 
   #MJ

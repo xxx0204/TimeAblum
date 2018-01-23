@@ -56,7 +56,7 @@
         _tableView.frame = CGRectMake(0, 0, SCREENW, SCREENH - 64);
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        _tableView.backgroundColor = [UIColor grayColor];
+        _tableView.backgroundColor = Common_Gray_Color;
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     }
     return _tableView;

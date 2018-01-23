@@ -21,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.automaticallyAdjustsScrollViewInsets = NO;
+    self.view.backgroundColor = Common_Gray_Color;
 }
 
 - (void)didReceiveMemoryWarning {
