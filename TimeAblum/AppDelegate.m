@@ -18,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self initAppInfos:launchOptions application:application];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [TALoginUtil showLoginVC:^(id loginInfo) {
+            NSLogFormat(loginInfo);
+        }];
+    });
     // Override point for customization after application launch.
     return YES;
 }
