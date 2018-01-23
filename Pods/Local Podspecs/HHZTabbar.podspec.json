@@ -1,0 +1,32 @@
+{
+  "name": "HHZTabbar",
+  "version": "0.0.1.7",
+  "summary": "Tabbar",
+  "description": "陈哲是个好孩子-Tabbar",
+  "homepage": "https://github.com/chenzhe555/HHZTabbar",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "chenzhe555": "376811578@qq.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "https://github.com/chenzhe555/HHZTabbar.git",
+    "tag": "0.0.1.7"
+  },
+  "subspecs": [
+    {
+      "name": "HHZTabbar",
+      "subspecs": [
+        {
+          "name": "Tabbar",
+          "source_files": "HHZTabbar/Tabbar/*.{h,m}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HHZBaseClass (0.0.1.12):
+    - HHZBaseClass/HHZBaseClass (= 0.0.1.12)
+  - HHZBaseClass/HHZBaseClass (0.0.1.12):
+    - HHZBaseClass/HHZBaseClass/kit (= 0.0.1.12)
+    - HHZBaseClass/HHZBaseClass/navi (= 0.0.1.12)
+    - HHZBaseClass/HHZBaseClass/others (= 0.0.1.12)
+    - HHZBaseClass/HHZBaseClass/tableview (= 0.0.1.12)
+    - HHZBaseClass/HHZBaseClass/vc (= 0.0.1.12)
+  - HHZBaseClass/HHZBaseClass/kit (0.0.1.12)
+  - HHZBaseClass/HHZBaseClass/navi (0.0.1.12)
+  - HHZBaseClass/HHZBaseClass/others (0.0.1.12)
+  - HHZBaseClass/HHZBaseClass/tableview (0.0.1.12):
+    - HHZBaseClass/HHZBaseClass/tableview/cell (= 0.0.1.12)
+  - HHZBaseClass/HHZBaseClass/tableview/cell (0.0.1.12)
+  - HHZBaseClass/HHZBaseClass/vc (0.0.1.12):
+    - HHZBaseClass/HHZBaseClass/vc/search (= 0.0.1.12)
+  - HHZBaseClass/HHZBaseClass/vc/search (0.0.1.12)
+  - HHZCategory (0.0.2.13):
+    - HHZCategory/HHZCategory (= 0.0.2.13)
+  - HHZCategory/HHZCategory (0.0.2.13):
+    - HHZCategory/HHZCategory/foundation (= 0.0.2.13)
+    - HHZCategory/HHZCategory/uikit (= 0.0.2.13)
+  - HHZCategory/HHZCategory/foundation (0.0.2.13)
+  - HHZCategory/HHZCategory/uikit (0.0.2.13)
+  - HHZConfigs (0.0.1.3):
+    - HHZConfigs/HHZConfigs (= 0.0.1.3)
+  - HHZConfigs/HHZConfigs (0.0.1.3):
+    - HHZConfigs/HHZConfigs/tool (= 0.0.1.3)
+  - HHZConfigs/HHZConfigs/tool (0.0.1.3)
+  - HHZLoading (0.0.2.6):
+    - HHZLoading/HHZLoading (= 0.0.2.6)
+  - HHZLoading/HHZLoading (0.0.2.6):
+    - HHZLoading/HHZLoading/loading (= 0.0.2.6)
+  - HHZLoading/HHZLoading/loading (0.0.2.6)
+  - HHZNavigationView (0.0.1.10):
+    - HHZNavigationView/HHZNavigationView (= 0.0.1.10)
+  - HHZNavigationView/HHZNavigationView (0.0.1.10):
+    - HHZNavigationView/HHZNavigationView/navigationView (= 0.0.1.10)
+  - HHZNavigationView/HHZNavigationView/navigationView (0.0.1.10)
+  - HHZNetwork (0.0.2.17):
+    - AFNetworking (~> 3.1.0)
+    - HHZNetwork/HHZNetwork (= 0.0.2.17)
+  - HHZNetwork/HHZNetwork (0.0.2.17):
+    - AFNetworking (~> 3.1.0)
+    - HHZNetwork/HHZNetwork/http (= 0.0.2.17)
+  - HHZNetwork/HHZNetwork/http (0.0.2.17):
+    - AFNetworking (~> 3.1.0)
+  - HHZNoneDataView (0.0.2.5):
+    - HHZNoneDataView/HHZNoneDataView (= 0.0.2.5)
+  - HHZNoneDataView/HHZNoneDataView (0.0.2.5):
+    - HHZNoneDataView/HHZNoneDataView/noneDataView (= 0.0.2.5)
+  - HHZNoneDataView/HHZNoneDataView/noneDataView (0.0.2.5)
+  - HHZTabbar (0.0.1.7):
+    - HHZTabbar/HHZTabbar (= 0.0.1.7)
+  - HHZTabbar/HHZTabbar (0.0.1.7):
+    - HHZTabbar/HHZTabbar/Tabbar (= 0.0.1.7)
+  - HHZTabbar/HHZTabbar/Tabbar (0.0.1.7)
+  - HHZUtils (0.0.3.5):
+    - HHZUtils/HHZUtils (= 0.0.3.5)
+  - HHZUtils/HHZUtils (0.0.3.5):
+    - HHZUtils/HHZUtils/application (= 0.0.3.5)
+    - HHZUtils/HHZUtils/archive (= 0.0.3.5)
+    - HHZUtils/HHZUtils/calculate (= 0.0.3.5)
+    - HHZUtils/HHZUtils/cookie (= 0.0.3.5)
+    - HHZUtils/HHZUtils/date (= 0.0.3.5)
+    - HHZUtils/HHZUtils/device (= 0.0.3.5)
+    - HHZUtils/HHZUtils/encryption (= 0.0.3.5)
+    - HHZUtils/HHZUtils/exception (= 0.0.3.5)
+    - HHZUtils/HHZUtils/file (= 0.0.3.5)
+    - HHZUtils/HHZUtils/http (= 0.0.3.5)
+    - HHZUtils/HHZUtils/json (= 0.0.3.5)
+    - HHZUtils/HHZUtils/kit (= 0.0.3.5)
+    - HHZUtils/HHZUtils/numerical (= 0.0.3.5)
+    - HHZUtils/HHZUtils/plist (= 0.0.3.5)
+    - HHZUtils/HHZUtils/sectionIndex (= 0.0.3.5)
+    - HHZUtils/HHZUtils/system (= 0.0.3.5)
+  - HHZUtils/HHZUtils/application (0.0.3.5)
+  - HHZUtils/HHZUtils/archive (0.0.3.5)
+  - HHZUtils/HHZUtils/calculate (0.0.3.5)
+  - HHZUtils/HHZUtils/cookie (0.0.3.5)
+  - HHZUtils/HHZUtils/date (0.0.3.5)
+  - HHZUtils/HHZUtils/device (0.0.3.5)
+  - HHZUtils/HHZUtils/encryption (0.0.3.5):
+    - HHZUtils/HHZUtils/encryption/GTMBase64 (= 0.0.3.5)
+  - HHZUtils/HHZUtils/encryption/GTMBase64 (0.0.3.5)
+  - HHZUtils/HHZUtils/exception (0.0.3.5)
+  - HHZUtils/HHZUtils/file (0.0.3.5)
+  - HHZUtils/HHZUtils/http (0.0.3.5)
+  - HHZUtils/HHZUtils/json (0.0.3.5)
+  - HHZUtils/HHZUtils/kit (0.0.3.5)
+  - HHZUtils/HHZUtils/numerical (0.0.3.5)
+  - HHZUtils/HHZUtils/plist (0.0.3.5)
+  - HHZUtils/HHZUtils/sectionIndex (0.0.3.5)
+  - HHZUtils/HHZUtils/system (0.0.3.5)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.1)
+
+DEPENDENCIES:
+  - HHZBaseClass (from `https://github.com/chenzhe555/HHZBaseClass.git`)
+  - HHZCategory (from `https://github.com/chenzhe555/HHZCategory.git`)
+  - HHZConfigs (from `https://github.com/chenzhe555/HHZConfigs.git`)
+  - HHZLoading (from `https://github.com/chenzhe555/HHZLoading.git`)
+  - HHZNavigationView (from `https://github.com/chenzhe555/HHZNavigationView.git`)
+  - HHZNetwork (from `https://github.com/chenzhe555/HHZNetwork.git`)
+  - HHZNoneDataView (from `https://github.com/chenzhe555/HHZNoneDataView.git`)
+  - HHZTabbar (from `https://github.com/chenzhe555/HHZTabbar.git`)
+  - HHZUtils (from `https://github.com/chenzhe555/HHZUtils.git`)
+  - Masonry (~> 1.0.2)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+
+EXTERNAL SOURCES:
+  HHZBaseClass:
+    :git: https://github.com/chenzhe555/HHZBaseClass.git
+  HHZCategory:
+    :git: https://github.com/chenzhe555/HHZCategory.git
+  HHZConfigs:
+    :git: https://github.com/chenzhe555/HHZConfigs.git
+  HHZLoading:
+    :git: https://github.com/chenzhe555/HHZLoading.git
+  HHZNavigationView:
+    :git: https://github.com/chenzhe555/HHZNavigationView.git
+  HHZNetwork:
+    :git: https://github.com/chenzhe555/HHZNetwork.git
+  HHZNoneDataView:
+    :git: https://github.com/chenzhe555/HHZNoneDataView.git
+  HHZTabbar:
+    :git: https://github.com/chenzhe555/HHZTabbar.git
+  HHZUtils:
+    :git: https://github.com/chenzhe555/HHZUtils.git
+
+CHECKOUT OPTIONS:
+  HHZBaseClass:
+    :commit: 4cc4d151e923ea2992a1d9c8ac54b83b2331ef00
+    :git: https://github.com/chenzhe555/HHZBaseClass.git
+  HHZCategory:
+    :commit: 2dde4d1cc428a08acf038b2a31834f0d4415e798
+    :git: https://github.com/chenzhe555/HHZCategory.git
+  HHZConfigs:
+    :commit: 4905955522d565aae43f1de23d56bdda5a29ac56
+    :git: https://github.com/chenzhe555/HHZConfigs.git
+  HHZLoading:
+    :commit: bd70dd92614114c23434b78417409b8efb4652a5
+    :git: https://github.com/chenzhe555/HHZLoading.git
+  HHZNavigationView:
+    :commit: 7b20365c551c41fe9dc0e3cb3eed0017975a115f
+    :git: https://github.com/chenzhe555/HHZNavigationView.git
+  HHZNetwork:
+    :commit: 70729782dfcc260b5f7749e2cf6fe40808711248
+    :git: https://github.com/chenzhe555/HHZNetwork.git
+  HHZNoneDataView:
+    :commit: 134c44a76c3aa4c49461253182285b094f18cbe5
+    :git: https://github.com/chenzhe555/HHZNoneDataView.git
+  HHZTabbar:
+    :commit: 90efc9894e1f7a7fb55567d1a750d14c1c1230bb
+    :git: https://github.com/chenzhe555/HHZTabbar.git
+  HHZUtils:
+    :commit: 00d0ecac71356a338118ba2190e1afdfe3238e3c
+    :git: https://github.com/chenzhe555/HHZUtils.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HHZBaseClass: e40ef7231bd86c14981369c4bc08865d0edfaf96
+  HHZCategory: 26a4fa20a9eb4f76971bb44c2f7a8408e4f1f54a
+  HHZConfigs: 1ddbea52ec7aeee8774fa7d79ac5929099b72c9b
+  HHZLoading: fd6a026c4b8397299caaf08de0838db622e23111
+  HHZNavigationView: 9bf2cd8e16c5a0257da9d0562fb0c17ad60abc77
+  HHZNetwork: 7138d1ee37c20923d0c59d4c742a3b4e48ccf615
+  HHZNoneDataView: 17ec83459917227a8be310fdc096608162863dfd
+  HHZTabbar: f3e9bdc8aa0ae3e80320c821360cd8d924c4a6aa
+  HHZUtils: 84d2cb3a79284487e513c7c9060398ccf52ed115
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+
+PODFILE CHECKSUM: 96000a088e6f7ca8095350b758a7e89292eff5e4
+
+COCOAPODS: 1.4.0

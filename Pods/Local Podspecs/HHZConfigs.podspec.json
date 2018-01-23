@@ -1,0 +1,33 @@
+{
+  "name": "HHZConfigs",
+  "version": "0.0.1.3",
+  "summary": "配置信息",
+  "description": "陈哲是个好孩子-配置信息",
+  "homepage": "https://github.com/chenzhe555/HHZConfigs",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenzhe555": "376811578@qq.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "https://github.com/chenzhe555/HHZConfigs.git",
+    "tag": "0.0.1.3"
+  },
+  "source_files": "HHZConfigs/HHZConfig.h",
+  "subspecs": [
+    {
+      "name": "HHZConfigs",
+      "subspecs": [
+        {
+          "name": "tool",
+          "source_files": "HHZConfigs/HHZConfigTool.{h,m}"
+        }
+      ]
+    }
+  ]
+}

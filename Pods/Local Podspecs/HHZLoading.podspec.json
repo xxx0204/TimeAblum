@@ -1,0 +1,36 @@
+{
+  "name": "HHZLoading",
+  "version": "0.0.2.6",
+  "summary": "Loading",
+  "description": "陈哲是个好孩子-Loading",
+  "homepage": "https://github.com/chenzhe555/HHZLoading",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "chenzhe555": "376811578@qq.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "https://github.com/chenzhe555/HHZLoading.git",
+    "tag": "0.0.2.6"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "HHZLoading",
+      "subspecs": [
+        {
+          "name": "loading",
+          "source_files": "HHZLoading/loading/*.{h,m}"
+        }
+      ]
+    }
+  ]
+}
