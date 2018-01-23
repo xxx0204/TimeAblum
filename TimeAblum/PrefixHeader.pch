@@ -11,15 +11,30 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-
+#ifdef __OBJC__
 
 #import <HHZConfigs/HHZConfig.h>
 #import <HHZCategory/HHZCategory.h>
+
+#pragma mark HHZ
+#import <HHZLoading/HHZActivityLoadingView.h>
 
 #pragma mark Frameworks
 #import <MJExtension/MJExtension.h>
 #import <Masonry/Masonry.h>
 #import <MJRefresh/MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#pragma mark 工具
+#import "TATabbarTool.h"
+#import "TANavigationViewGenerator.h"
+#import "TAEnvironmentDefine.h"
+#import "TAFunctionDefines.h"
+#import "TANotificationDefine.h"
+#import "TASpaceAndHeightDefine.h"
+#import "TAConstantDefine.h"
+#import "TAColorDefine.h"
+#import "TAPromptMessageDefine.h"
 
 /********************  头文件  **********************/
 #import "TALoginUtil.h"
@@ -32,4 +47,5 @@
 
 #define NSLogFormat(format) NSLog(@"%@", format)
 
+#endif
 #endif /* PrefixHeader_pch */

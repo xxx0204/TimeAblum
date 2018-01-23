@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740EFB4320176D3C00E99EB4 /* TAAblumInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EFB4220176D3C00E99EB4 /* TAAblumInfoModel.m */; };
+		740EFB4720176D7700E99EB4 /* TAAblumInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EFB4520176D7700E99EB4 /* TAAblumInfoCell.m */; };
+		740EFB4820176D7700E99EB4 /* TAAblumInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740EFB4620176D7700E99EB4 /* TAAblumInfoCell.xib */; };
+		740EFB4D201778D400E99EB4 /* TACreateAblumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EFB4B201778D400E99EB4 /* TACreateAblumViewController.m */; };
+		740EFB4E201778D400E99EB4 /* TACreateAblumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740EFB4C201778D400E99EB4 /* TACreateAblumViewController.xib */; };
 		7433FA8C201453C000075F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7433FA8B201453C000075F7C /* AppDelegate.m */; };
 		7433FA8F201453C000075F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7433FA8E201453C000075F7C /* ViewController.m */; };
 		7433FA92201453C000075F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7433FA90201453C000075F7C /* Main.storyboard */; };
@@ -38,6 +43,21 @@
 
 /* Begin PBXFileReference section */
 		394257297893D296BF2469F8 /* Pods-TimeAblum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAblum.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAblum/Pods-TimeAblum.release.xcconfig"; sourceTree = "<group>"; };
+		740EFB4120176D3C00E99EB4 /* TAAblumInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAblumInfoModel.h; sourceTree = "<group>"; };
+		740EFB4220176D3C00E99EB4 /* TAAblumInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAblumInfoModel.m; sourceTree = "<group>"; };
+		740EFB4420176D7700E99EB4 /* TAAblumInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAblumInfoCell.h; sourceTree = "<group>"; };
+		740EFB4520176D7700E99EB4 /* TAAblumInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAblumInfoCell.m; sourceTree = "<group>"; };
+		740EFB4620176D7700E99EB4 /* TAAblumInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TAAblumInfoCell.xib; sourceTree = "<group>"; };
+		740EFB4A201778D400E99EB4 /* TACreateAblumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACreateAblumViewController.h; sourceTree = "<group>"; };
+		740EFB4B201778D400E99EB4 /* TACreateAblumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACreateAblumViewController.m; sourceTree = "<group>"; };
+		740EFB4C201778D400E99EB4 /* TACreateAblumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TACreateAblumViewController.xib; sourceTree = "<group>"; };
+		740EFB572017803100E99EB4 /* TAColorDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAColorDefine.h; sourceTree = "<group>"; };
+		740EFB592017806500E99EB4 /* TAEnvironmentDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAEnvironmentDefine.h; sourceTree = "<group>"; };
+		740EFB5A2017809200E99EB4 /* TAFunctionDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAFunctionDefines.h; sourceTree = "<group>"; };
+		740EFB5C201780CC00E99EB4 /* TANotificationDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TANotificationDefine.h; sourceTree = "<group>"; };
+		740EFB5D201780DF00E99EB4 /* TASpaceAndHeightDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TASpaceAndHeightDefine.h; sourceTree = "<group>"; };
+		740EFB5E201780F500E99EB4 /* TAConstantDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAConstantDefine.h; sourceTree = "<group>"; };
+		740EFB5F2017831000E99EB4 /* TAPromptMessageDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAPromptMessageDefine.h; sourceTree = "<group>"; };
 		7433FA87201453C000075F7C /* TimeAblum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAblum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7433FA8A201453C000075F7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7433FA8B201453C000075F7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +125,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		740EFB49201778C000E99EB4 /* create */ = {
+			isa = PBXGroup;
+			children = (
+				740EFB4A201778D400E99EB4 /* TACreateAblumViewController.h */,
+				740EFB4B201778D400E99EB4 /* TACreateAblumViewController.m */,
+				740EFB4C201778D400E99EB4 /* TACreateAblumViewController.xib */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		740EFB4F20177FC400E99EB4 /* defines */ = {
+			isa = PBXGroup;
+			children = (
+				740EFB572017803100E99EB4 /* TAColorDefine.h */,
+				740EFB592017806500E99EB4 /* TAEnvironmentDefine.h */,
+				740EFB5A2017809200E99EB4 /* TAFunctionDefines.h */,
+				740EFB5C201780CC00E99EB4 /* TANotificationDefine.h */,
+				740EFB5D201780DF00E99EB4 /* TASpaceAndHeightDefine.h */,
+				740EFB5E201780F500E99EB4 /* TAConstantDefine.h */,
+				740EFB5F2017831000E99EB4 /* TAPromptMessageDefine.h */,
+			);
+			path = defines;
+			sourceTree = "<group>";
+		};
 		7433FA7E201453C000075F7C = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				788639C220177ECC00C374C9 /* login */,
+				740EFB4F20177FC400E99EB4 /* defines */,
 				7433FAE42014EBED00075F7C /* ablum */,
 				7433FAE92014EBEE00075F7C /* mine */,
 				7433FAD82014E6A500075F7C /* common */,
@@ -273,6 +318,7 @@
 		7433FAE62014EBED00075F7C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				740EFB49201778C000E99EB4 /* create */,
 				7433FAF12014EC1900075F7C /* TAAblumMainViewController.h */,
 				7433FAF22014EC1900075F7C /* TAAblumMainViewController.m */,
 			);
@@ -282,6 +328,8 @@
 		7433FAE72014EBED00075F7C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				740EFB4120176D3C00E99EB4 /* TAAblumInfoModel.h */,
+				740EFB4220176D3C00E99EB4 /* TAAblumInfoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +337,9 @@
 		7433FAE82014EBED00075F7C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				740EFB4420176D7700E99EB4 /* TAAblumInfoCell.h */,
+				740EFB4520176D7700E99EB4 /* TAAblumInfoCell.m */,
+				740EFB4620176D7700E99EB4 /* TAAblumInfoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -459,10 +510,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740EFB4820176D7700E99EB4 /* TAAblumInfoCell.xib in Resources */,
 				7433FA97201453C000075F7C /* LaunchScreen.storyboard in Resources */,
 				7433FA94201453C000075F7C /* Assets.xcassets in Resources */,
 				7433FA92201453C000075F7C /* Main.storyboard in Resources */,
 				7433FAF82014F64500075F7C /* HHZTabbar.plist in Resources */,
+				740EFB4E201778D400E99EB4 /* TACreateAblumViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,11 +586,14 @@
 				7433FAF02014EC0200075F7C /* TAMineViewController.m in Sources */,
 				7433FAD4201464A600075F7C /* TAHttpService.m in Sources */,
 				7433FAB62014598C00075F7C /* TANavigationViewController.m in Sources */,
+				740EFB4D201778D400E99EB4 /* TACreateAblumViewController.m in Sources */,
+				740EFB4720176D7700E99EB4 /* TAAblumInfoCell.m in Sources */,
 				7433FA8F201453C000075F7C /* ViewController.m in Sources */,
 				7433FAD7201464BB00075F7C /* TAHttpURLManager.m in Sources */,
 				7433FADF2014E85C00075F7C /* TANavigationViewGenerator.m in Sources */,
 				746B7C5120163B1400DF13D6 /* TAHttpService+Extra.m in Sources */,
 				788639D520177F5900C374C9 /* TALoginView.m in Sources */,
+				740EFB4320176D3C00E99EB4 /* TAAblumInfoModel.m in Sources */,
 				7433FAF62014EC7E00075F7C /* AppDelegate+Window.m in Sources */,
 				7433FAC720145AAF00075F7C /* TATabbar.m in Sources */,
 				788639D220177F1A00C374C9 /* TALoginViewController.m in Sources */,

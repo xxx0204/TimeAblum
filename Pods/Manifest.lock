@@ -66,6 +66,13 @@ PODS:
   - HHZNoneDataView/HHZNoneDataView (0.0.2.5):
     - HHZNoneDataView/HHZNoneDataView/noneDataView (= 0.0.2.5)
   - HHZNoneDataView/HHZNoneDataView/noneDataView (0.0.2.5)
+  - HHZPopupView (0.0.1.10):
+    - HHZPopupView/HHZPopupView (= 0.0.1.10)
+  - HHZPopupView/HHZPopupView (0.0.1.10):
+    - HHZPopupView/HHZPopupView/dropdownmenu (= 0.0.1.10)
+    - HHZPopupView/HHZPopupView/popupOptions (= 0.0.1.10)
+  - HHZPopupView/HHZPopupView/dropdownmenu (0.0.1.10)
+  - HHZPopupView/HHZPopupView/popupOptions (0.0.1.10)
   - HHZTabbar (0.0.1.7):
     - HHZTabbar/HHZTabbar (= 0.0.1.7)
   - HHZTabbar/HHZTabbar (0.0.1.7):
@@ -111,6 +118,9 @@ PODS:
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.15.1)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
 
 DEPENDENCIES:
   - HHZBaseClass (from `https://github.com/chenzhe555/HHZBaseClass.git`)
@@ -120,11 +130,13 @@ DEPENDENCIES:
   - HHZNavigationView (from `https://github.com/chenzhe555/HHZNavigationView.git`)
   - HHZNetwork (from `https://github.com/chenzhe555/HHZNetwork.git`)
   - HHZNoneDataView (from `https://github.com/chenzhe555/HHZNoneDataView.git`)
+  - HHZPopupView (from `https://github.com/chenzhe555/HHZPopupView.git`)
   - HHZTabbar (from `https://github.com/chenzhe555/HHZTabbar.git`)
   - HHZUtils (from `https://github.com/chenzhe555/HHZUtils.git`)
   - Masonry (~> 1.0.2)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.1.12)
+  - SDWebImage (~> 4.2.2)
 
 EXTERNAL SOURCES:
   HHZBaseClass:
@@ -141,6 +153,8 @@ EXTERNAL SOURCES:
     :git: https://github.com/chenzhe555/HHZNetwork.git
   HHZNoneDataView:
     :git: https://github.com/chenzhe555/HHZNoneDataView.git
+  HHZPopupView:
+    :git: https://github.com/chenzhe555/HHZPopupView.git
   HHZTabbar:
     :git: https://github.com/chenzhe555/HHZTabbar.git
   HHZUtils:
@@ -168,6 +182,9 @@ CHECKOUT OPTIONS:
   HHZNoneDataView:
     :commit: 134c44a76c3aa4c49461253182285b094f18cbe5
     :git: https://github.com/chenzhe555/HHZNoneDataView.git
+  HHZPopupView:
+    :commit: 45908e8a039e7f720022418cfd0951edf760be01
+    :git: https://github.com/chenzhe555/HHZPopupView.git
   HHZTabbar:
     :commit: 90efc9894e1f7a7fb55567d1a750d14c1c1230bb
     :git: https://github.com/chenzhe555/HHZTabbar.git
@@ -184,12 +201,14 @@ SPEC CHECKSUMS:
   HHZNavigationView: 9bf2cd8e16c5a0257da9d0562fb0c17ad60abc77
   HHZNetwork: 7138d1ee37c20923d0c59d4c742a3b4e48ccf615
   HHZNoneDataView: 17ec83459917227a8be310fdc096608162863dfd
+  HHZPopupView: 7395706709fe1887052b8050942243aa584e0d63
   HHZTabbar: f3e9bdc8aa0ae3e80320c821360cd8d924c4a6aa
   HHZUtils: 84d2cb3a79284487e513c7c9060398ccf52ed115
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
 
-PODFILE CHECKSUM: 96000a088e6f7ca8095350b758a7e89292eff5e4
+PODFILE CHECKSUM: 6add961efaecb08fd3e0ffb6f5eacb0a65c04705
 
 COCOAPODS: 1.4.0

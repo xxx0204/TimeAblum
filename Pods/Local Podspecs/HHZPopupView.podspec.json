@@ -1,0 +1,36 @@
+{
+  "name": "HHZPopupView",
+  "version": "0.0.1.10",
+  "summary": "HHZPopupView",
+  "description": "陈哲是个好孩子-HHZPopupView",
+  "homepage": "https://github.com/chenzhe555/HHZPopupView",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "chenzhe555": "376811578@qq.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "https://github.com/chenzhe555/HHZPopupView.git",
+    "tag": "0.0.1.10"
+  },
+  "subspecs": [
+    {
+      "name": "HHZPopupView",
+      "subspecs": [
+        {
+          "name": "popupOptions",
+          "source_files": "HHZPopupView/classes/popupOptions/*.{h,m}"
+        },
+        {
+          "name": "dropdownmenu",
+          "source_files": "HHZPopupView/classes/dropdownmenu/*.{h,m}"
+        }
+      ]
+    }
+  ]
+}
