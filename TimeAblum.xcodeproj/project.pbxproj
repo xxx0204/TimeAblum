@@ -29,6 +29,10 @@
 		7433FAF62014EC7E00075F7C /* AppDelegate+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 7433FAF52014EC7E00075F7C /* AppDelegate+Window.m */; };
 		7433FAF82014F64500075F7C /* HHZTabbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7433FAF72014F64500075F7C /* HHZTabbar.plist */; };
 		746B7C5120163B1400DF13D6 /* TAHttpService+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 746B7C5020163B1400DF13D6 /* TAHttpService+Extra.m */; };
+		788639D220177F1A00C374C9 /* TALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788639D120177F1A00C374C9 /* TALoginViewController.m */; };
+		788639D520177F5900C374C9 /* TALoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788639D420177F5900C374C9 /* TALoginView.m */; };
+		788639D82017811C00C374C9 /* TALoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 788639D72017811C00C374C9 /* TALoginUtil.m */; };
+		788639DB2017818200C374C9 /* TAUIKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 788639DA2017818200C374C9 /* TAUIKitUtil.m */; };
 		CDF86D6413728169C6DD2878 /* libPods-TimeAblum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47F8115DEC566337C53A1D /* libPods-TimeAblum.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +81,14 @@
 		7433FAF72014F64500075F7C /* HHZTabbar.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HHZTabbar.plist; sourceTree = "<group>"; };
 		746B7C4F20163B1400DF13D6 /* TAHttpService+Extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TAHttpService+Extra.h"; sourceTree = "<group>"; };
 		746B7C5020163B1400DF13D6 /* TAHttpService+Extra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TAHttpService+Extra.m"; sourceTree = "<group>"; };
+		788639D020177F1A00C374C9 /* TALoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TALoginViewController.h; sourceTree = "<group>"; };
+		788639D120177F1A00C374C9 /* TALoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TALoginViewController.m; sourceTree = "<group>"; };
+		788639D320177F5900C374C9 /* TALoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TALoginView.h; sourceTree = "<group>"; };
+		788639D420177F5900C374C9 /* TALoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TALoginView.m; sourceTree = "<group>"; };
+		788639D62017811C00C374C9 /* TALoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TALoginUtil.h; sourceTree = "<group>"; };
+		788639D72017811C00C374C9 /* TALoginUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TALoginUtil.m; sourceTree = "<group>"; };
+		788639D92017818200C374C9 /* TAUIKitUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAUIKitUtil.h; sourceTree = "<group>"; };
+		788639DA2017818200C374C9 /* TAUIKitUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAUIKitUtil.m; sourceTree = "<group>"; };
 		7E1B0BCAA38DA7823E92EC94 /* Pods-TimeAblum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeAblum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeAblum/Pods-TimeAblum.debug.xcconfig"; sourceTree = "<group>"; };
 		BA47F8115DEC566337C53A1D /* libPods-TimeAblum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeAblum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +144,7 @@
 		7433FAA02014590200075F7C /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				788639C220177ECC00C374C9 /* login */,
 				7433FAE42014EBED00075F7C /* ablum */,
 				7433FAE92014EBEE00075F7C /* mine */,
 				7433FAD82014E6A500075F7C /* common */,
@@ -224,6 +237,7 @@
 		7433FAD82014E6A500075F7C /* common */ = {
 			isa = PBXGroup;
 			children = (
+				788639BB20177EBC00C374C9 /* util */,
 				7433FAD92014E6A500075F7C /* views */,
 			);
 			path = common;
@@ -316,6 +330,52 @@
 		7433FAED2014EBEE00075F7C /* View */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		788639BB20177EBC00C374C9 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				788639D62017811C00C374C9 /* TALoginUtil.h */,
+				788639D72017811C00C374C9 /* TALoginUtil.m */,
+				788639D92017818200C374C9 /* TAUIKitUtil.h */,
+				788639DA2017818200C374C9 /* TAUIKitUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		788639C220177ECC00C374C9 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				788639C320177ECC00C374C9 /* Controller */,
+				788639C620177ECC00C374C9 /* Model */,
+				788639C720177ECC00C374C9 /* View */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		788639C320177ECC00C374C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				788639D020177F1A00C374C9 /* TALoginViewController.h */,
+				788639D120177F1A00C374C9 /* TALoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		788639C620177ECC00C374C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		788639C720177ECC00C374C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				788639D320177F5900C374C9 /* TALoginView.h */,
+				788639D420177F5900C374C9 /* TALoginView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -477,14 +537,18 @@
 				7433FAD7201464BB00075F7C /* TAHttpURLManager.m in Sources */,
 				7433FADF2014E85C00075F7C /* TANavigationViewGenerator.m in Sources */,
 				746B7C5120163B1400DF13D6 /* TAHttpService+Extra.m in Sources */,
+				788639D520177F5900C374C9 /* TALoginView.m in Sources */,
 				7433FAF62014EC7E00075F7C /* AppDelegate+Window.m in Sources */,
 				7433FAC720145AAF00075F7C /* TATabbar.m in Sources */,
+				788639D220177F1A00C374C9 /* TALoginViewController.m in Sources */,
 				7433FAE22014E8D400075F7C /* TATableViewViewController.m in Sources */,
+				788639DB2017818200C374C9 /* TAUIKitUtil.m in Sources */,
 				7433FA9A201453C000075F7C /* main.m in Sources */,
 				7433FACC2014636E00075F7C /* TAViewController.m in Sources */,
 				7433FAD12014646900075F7C /* TAHttpClient.m in Sources */,
 				7433FADC2014E6E700075F7C /* TANoneDataView.m in Sources */,
 				7433FA8C201453C000075F7C /* AppDelegate.m in Sources */,
+				788639D82017811C00C374C9 /* TALoginUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
