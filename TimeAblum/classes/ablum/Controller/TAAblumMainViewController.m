@@ -10,6 +10,7 @@
 #import <HHZPopupView/HHZPopupOptionsView.h>
 #import "TAAblumInfoCell.h"
 #import "TACreateAblumViewController.h"
+#import "TAGroupAblumViewController.h"
 
 @interface TAAblumMainViewController ()<HHZPopupOptionViewsDelegate>
 @property (nonatomic, strong) HHZHttpResult * configResult;
@@ -35,7 +36,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [[TATabbarTool shareManager].tabbar showTabbarView:YES];
+    TabbarShow
 }
 
 - (void)didReceiveMemoryWarning {
@@ -143,8 +144,16 @@
 -(void)dlTapOptionAtIndex:(NSInteger)index
 {
     self.popOptionsView.hidden = YES;
-    TACreateAblumViewController * vc = [[TACreateAblumViewController alloc] initWithNibName:@"TACreateAblumViewController" bundle:nil];
-    [self.navigationController pushViewController:vc animated:YES];
+    if (0 == index)
+    {
+        TACreateAblumViewController * vc = [[TACreateAblumViewController alloc] initWithNibName:@"TACreateAblumViewController" bundle:nil];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if (1 == index)
+    {
+        TAGroupAblumViewController * vc = [[TAGroupAblumViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 #pragma mark 回调事件 - UITableViewDelegate
@@ -215,6 +224,7 @@
     if (response.tag == self.configResult.tag)
     {
         [self.currentService handleFailInfo:response];
+        [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(test) userInfo:nil repeats:NO];
     }
 }
 

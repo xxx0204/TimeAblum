@@ -1,28 +1,27 @@
 //
-//  TACreateAblumViewController.m
+//  TAAblumInfoViewController.m
 //  TimeAblum
 //
 //  Created by 陈哲是个好孩子 on 2018/1/23.
 //  Copyright © 2018年 陈哲是个好孩子. All rights reserved.
 //
 
-#import "TACreateAblumViewController.h"
-#import "TATabbarTool.h"
+#import "TAAblumInfoViewController.h"
+#import "TAAblumInfoQRCodeView.h"
 
-@interface TACreateAblumViewController ()
-
+@interface TAAblumInfoViewController ()
+@property (nonatomic, strong) TAAblumInfoQRCodeView * QRCodeView;
 @end
 
-@implementation TACreateAblumViewController
+@implementation TAAblumInfoViewController
 
 #pragma mark **********************     视图控制器生命周期  **********************
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    self.title = @"创建相册";
+    // Do any additional setup after loading the view.
+    self.title = @"相册信息";
     BackFunction
-    TabbarHidden
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,6 +41,7 @@
 -(void)createMainView
 {
     [super createMainView];
+    [self showQRCodeView];
 }
 
 #pragma mark **********************  属性以及视图创建后的基本操作  ******************
@@ -49,6 +49,15 @@
 #pragma mark **********************         重写方法       ***********************
 
 #pragma mark **********************        自定义方法       ***********************
+
+-(void)showQRCodeView
+{
+    self.QRCodeView = [[NSBundle mainBundle] loadNibNamed:@"TAAblumInfoQRCode" owner:nil options:nil][0];
+    self.QRCodeView.frame = CGRectMake(0, 30, SCREENW, 300);
+    [self.view addSubview:self.QRCodeView];
+    
+    [self.QRCodeView evaluateQRString:@"http://www.baidu.com" content:@"让朋友用\"时间相册app\"扫描下方二维码加入《一家人》相册"];
+}
 
 #pragma mark **********************         触发事件       ***********************
 

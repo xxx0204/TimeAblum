@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6oU-nl-eMJ" customClass="TAJoinQRCodeView">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="263"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kap-gs-yfn">
+                    <rect key="frame" x="132" y="73" width="160" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="l2V-Xf-bh4"/>
+                        <constraint firstAttribute="height" constant="160" id="tgB-CI-fHf"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gs5-ix-IyE">
+                    <rect key="frame" x="30" y="1" width="364" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="aNO-tl-D6u"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="kap-gs-yfn" firstAttribute="top" secondItem="Gs5-ix-IyE" secondAttribute="bottom" constant="30" id="82A-Rs-dOu"/>
+                <constraint firstItem="kap-gs-yfn" firstAttribute="centerX" secondItem="Ir9-i8-Ag9" secondAttribute="centerX" id="9Ck-dd-cf9"/>
+                <constraint firstItem="Ir9-i8-Ag9" firstAttribute="bottom" secondItem="kap-gs-yfn" secondAttribute="bottom" constant="30" id="L1S-9e-xAw"/>
+                <constraint firstItem="Gs5-ix-IyE" firstAttribute="leading" secondItem="Ir9-i8-Ag9" secondAttribute="leading" constant="30" id="cvY-Gq-nXG"/>
+                <constraint firstItem="Ir9-i8-Ag9" firstAttribute="trailing" secondItem="Gs5-ix-IyE" secondAttribute="trailing" constant="30" id="h6Q-KL-5ax"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Ir9-i8-Ag9"/>
+            <connections>
+                <outlet property="contentImageSpace" destination="82A-Rs-dOu" id="bCy-K5-KRd"/>
+                <outlet property="contentLabel" destination="Gs5-ix-IyE" id="btw-90-JA4"/>
+                <outlet property="iconImageView" destination="kap-gs-yfn" id="OoU-k7-RZG"/>
+                <outlet property="imageBottomSpace" destination="L1S-9e-xAw" id="asr-EO-GBz"/>
+            </connections>
+            <point key="canvasLocation" x="72" y="-9.5"/>
+        </view>
+    </objects>
+</document>

@@ -21,8 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [[TATabbarTool shareManager].tabbar hideTabbarView:YES];
-    [TANavigationViewGenerator createNaviType:HHZNavigationViewGeneratorLeft Title:nil nolmalImage:[UIImage imageNamed:@"back_white"] selectedImage:nil andNavi:self andSEL:@selector(back)];
+    BackFunction
+    TabbarHidden
 }
 
 - (void)didReceiveMemoryWarning {

@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param iconImage 显示的图片
  *  @param text      显示的文字
  */
--(void)updateIconImage:(UIImage *)iconImage andText:(NSString *)text;
+-(void)updateIconImage:(UIImage * __nullable)iconImage andText:(NSString * __nullable)text;
 
 #pragma mark Required
 @end

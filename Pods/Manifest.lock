@@ -95,6 +95,7 @@ PODS:
     - HHZUtils/HHZUtils/kit (= 0.0.3.5)
     - HHZUtils/HHZUtils/numerical (= 0.0.3.5)
     - HHZUtils/HHZUtils/plist (= 0.0.3.5)
+    - HHZUtils/HHZUtils/qrcode (= 0.0.3.5)
     - HHZUtils/HHZUtils/sectionIndex (= 0.0.3.5)
     - HHZUtils/HHZUtils/system (= 0.0.3.5)
   - HHZUtils/HHZUtils/application (0.0.3.5)
@@ -113,6 +114,7 @@ PODS:
   - HHZUtils/HHZUtils/kit (0.0.3.5)
   - HHZUtils/HHZUtils/numerical (0.0.3.5)
   - HHZUtils/HHZUtils/plist (0.0.3.5)
+  - HHZUtils/HHZUtils/qrcode (0.0.3.5)
   - HHZUtils/HHZUtils/sectionIndex (0.0.3.5)
   - HHZUtils/HHZUtils/system (0.0.3.5)
   - Masonry (1.0.2)
@@ -180,7 +182,7 @@ CHECKOUT OPTIONS:
     :commit: 70729782dfcc260b5f7749e2cf6fe40808711248
     :git: https://github.com/chenzhe555/HHZNetwork.git
   HHZNoneDataView:
-    :commit: 134c44a76c3aa4c49461253182285b094f18cbe5
+    :commit: c05bbe3ec0b6a5eeaf8ec71adafdd22a2dd4ded5
     :git: https://github.com/chenzhe555/HHZNoneDataView.git
   HHZPopupView:
     :commit: 45908e8a039e7f720022418cfd0951edf760be01
@@ -189,7 +191,7 @@ CHECKOUT OPTIONS:
     :commit: 90efc9894e1f7a7fb55567d1a750d14c1c1230bb
     :git: https://github.com/chenzhe555/HHZTabbar.git
   HHZUtils:
-    :commit: 00d0ecac71356a338118ba2190e1afdfe3238e3c
+    :commit: ddf669ffc36edfc02958889579c00b62943877ac
     :git: https://github.com/chenzhe555/HHZUtils.git
 
 SPEC CHECKSUMS:
@@ -203,7 +205,7 @@ SPEC CHECKSUMS:
   HHZNoneDataView: 17ec83459917227a8be310fdc096608162863dfd
   HHZPopupView: 7395706709fe1887052b8050942243aa584e0d63
   HHZTabbar: f3e9bdc8aa0ae3e80320c821360cd8d924c4a6aa
-  HHZUtils: 84d2cb3a79284487e513c7c9060398ccf52ed115
+  HHZUtils: 127452593d44c26d3aa60a84113c5f2a630574a0
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6

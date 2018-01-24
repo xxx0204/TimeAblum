@@ -6,8 +6,8 @@
 //  Copyright © 2018年 陈哲是个好孩子. All rights reserved.
 //
 
-#import "TAViewController.h"
+#import "TATableViewViewController.h"
 
-@interface TAMineViewController : TAViewController
+@interface TAMineViewController : TATableViewViewController
 
 @end

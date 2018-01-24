@@ -15,4 +15,8 @@
 #define LoadingCommonStop [[HHZActivityLoadingView shareLoadingView] stopLoadingView];
 
 
+#define TabbarHidden  [[TATabbarTool shareManager].tabbar hideTabbarView:YES];
+#define TabbarShow  [[TATabbarTool shareManager].tabbar showTabbarView:YES];
+
+
 #endif /* TAFunctionDefines_h */
